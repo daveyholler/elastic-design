@@ -1,4 +1,4 @@
-# sandbox.elastic.dev
+# design.elastic.co
 
 An experimental sandbox backed by [docsmobile](https://github.com/elastic/docsmobile) 🚌
 
