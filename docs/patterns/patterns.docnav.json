@@ -1,0 +1,13 @@
+{
+  "mission": "Patterns",
+  "id": "patterns",
+  "landingPageId": "patternsWelcome",
+  "icon": "reporter",
+  "description": "patterns",
+  "items": [
+    {
+      "label": "The building blocks, assembled",
+      "items": [{ "id": "patternsWelcome" }]
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dependencyDashboard": true,  
+  "packageRules": [
+    {
+      "packagePatterns": [
+        "*"
+      ],
+      "excludePackagePatterns": [
+        "@elastic/docsmobile", 
+        "docsmobile"
+      ],
+      "enabled": false
+    },
+    {
+      "paths": [
+        "package.json"
+      ],
+      "enabled": true
+    },
+    {
+      "matchPackageNames": [
+        "@elastic/docsmobile"
+      ],
+      "matchPackagePatterns": [
+        "^@docsmobile/"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest"
+      ],
+      "automerge": false
+    }
+  ],
+  "ignoreDeps": [
+    "mdast-util-from-markdown",
+    "patch-package",
+    "postinstall-postinstall"
+  ],
+  "labels": [
+    "docsmobile-update"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "mission": "Guidelines",
+  "id": "guidelines",
+  "landingPageId": "guidelinesWelcome",
+  "icon": "reporter",
+  "description": "Guidelines",
+  "items": [
+    {
+      "label": "Best practices and more",
+      "items": [{ "id": "guidelinesWelcome" }]
+    }
+  ]
+}

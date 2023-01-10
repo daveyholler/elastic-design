@@ -1,0 +1,13 @@
+{
+  "mission": "Components",
+  "id": "components",
+  "landingPageId": "componentsWelcome",
+  "icon": "reporter",
+  "description": "components",
+  "items": [
+    {
+      "label": "The building blocks",
+      "items": [{ "id": "componentsWelcome" }]
+    }
+  ]
+}
